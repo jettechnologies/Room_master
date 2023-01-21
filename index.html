@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Room</title>
+    <link rel="stylesheet" href = "css/style.css" type = "text/css" media = "screen">
+    <!-- <link rel="stylesheet" href="css/responsive.css" type = "text/css" media = "screen"> -->
+    <link rel="icon" href="images/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="container_blur"></div>
+        <header id="header">
+            <img src="images/logo.svg" alt = "logo image" class="logo">
+            <nav class="navigation">
+                <img src="images/icon-hamburger.svg" alt = "open navigation" class="menu">
+                <ul class="nav_list">
+                    <img src="images/icon-close.svg" alt = "close navigation" class="close_menu">
+                    <li class="list_items"><a href="#" class="nav_link">home</a></li>
+                    <li class="list_items"><a href="#" class="nav_link">shop</a></li>
+                    <li class="list_items"><a href="#" class="nav_link">about</a></li>
+                    <li class="list_items"><a href="#" class="nav_link">contact</a></li>
+                </ul>
+            </nav>  
+        </header>
+        <main id="main">
+            <section class="section shop">
+                <div class="hero_section">
+                    <div class="slide slide1"></div>
+                    <div class="slide slide2"></div>
+                    <div class="slide slide3"></div>
+                    <div class="arrows">
+                        <button id="left_arrow" onclick="plusDivs(-1)">&#10094;</button>
+                        <button id="right_arrow" onclick="plusDivs(+1)">&#10095;</button>
+                    </div>
+                </div>
+                <article class = "shop_content">
+                    <h2 class="heading">Discover innovative ways to decorate</h2>
+                    <p class="paragraph">
+                        We provide unmatched quality, comfort, and style for property owners across the country. Our experts combine form and function in bringing your vision to life. Create a room in your own style with our collection and make your property a reflection of you and what you love.
+                    </p>
+                    <a href="#" class="shop_btn">shop now<span class="shop_btn_arrow"><img src="images/icon-arrow.svg" alt="directional right arrow"></span></a>
+                </article>
+            </section>
+            <section class="section about">
+                <img src="images/image-about-dark.jpg" alt="chair image" class="dark_img">
+                <article class = "about_content">
+                    <h3 class="sub_heading">about our furniture</h3>
+                    <p class="paragraph">
+                        Our multifunctional collection blends design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your interests and what inspires you. Find the furniture pieces you need, from traditional to contemporary styles or anything in between. Product specialists are available to help you create your dream space.
+                    </p>
+                </article>
+                <img src="images/image-about-light.jpg" alt="blurred chair images" class="light_img">
+            </section>
+        </main>
+        <footer id = "footer">
+            <p class="paragraph author">challenge by <a href="#" class="link">frontend mentor</a> coded by <a href="#" class="link">jettechnologies</a></p>
+        </footer>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
